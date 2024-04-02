@@ -1,0 +1,17 @@
+1. build docker 
+    (docker build -t 'name' .)
+    example: docker build -t 'jaichandar/test:0.0.1' .
+
+2. To run docker image
+    (docker run -d -p port:port image-name)
+    example: docker run -d -p 4000:4000 jaichandar/test:0.0.1
+
+3. to stop image
+    (docker stop 'docker id number')
+    example: docker stop 24523423AKNA123lk1
+
+4. to see all container
+    (docker container ls)
+
+5. to see all images
+    (docker images)

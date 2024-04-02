@@ -1,0 +1,33 @@
+{
+  "name": "docker-practice",
+  "version": "1.0.0",
+  "description": "docker practice with node js",
+  "main": "server.js",
+  "scripts": {
+    "test": "docker",
+    "dev": "node server.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaichandar/docker.git"
+  },
+  "keywords": [
+    "docker",
+    "nodejs"
+  ],
+  "author": "jaichandar D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaichandar/docker/issues"
+  },
+  "homepage": "https://github.com/jaichandar/docker#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
